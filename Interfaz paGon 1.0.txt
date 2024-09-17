@@ -1,0 +1,127 @@
+Interfaz paGon 1.0
+
+Nuestra interfaz de aplicación móvil ofrece una pantalla de bienvenida con opciones de ingreso y registro, un menú de navegación adaptable según el tipo de usuario, un sistema de inicio de sesión seguro y un encabezado representativo para generar confianza en nuestra marca. Estos elementos contribuyen a una experiencia de usuario intuitiva y atractiva en nuestro aplicativo móvil de pagos.
+
+
+Interfaz 1: Pantalla de Bienvenida
+
+Prototipo 1: 
+Descripción: Es la introducción que aparece mientras se carga una seleccion de pantalla o se hace una seleccion.
+Pasos:
+Abrir la aplicación.
+Observar la pantalla de bienvenida.
+Menu de navegacion
+El título "Bienvenidos a paGon".
+El epígrafe "Tu aplicación de pagos fáciles online".
+Los botones "Ingresar" y "Registrarse".
+Espacio para mensajes o actualizaciones generales está visible.
+Marca registrada "paGon".
+
+Caso de Prueba 1:
+Identificador: CP-001
+Objetivo: Verificar que la pantalla de bienvenida se muestre correctamente con todos los elementos requeridos.
+-Requerimiento o Historia de Usuario asociada: Rto-01
+-Precondiciones: La aplicación está abierta.
+-Lista de pasos con los resultados esperados:
+Observar la pantalla de bienvenida.
+El título "Bienvenidos a paGon" se muestra correctamente.
+El epígrafe "Tu aplicación de pagos fáciles online" se muestra correctamente.
+Los botones "Ingresar" y "Registrarse" están presentes y funcionan correctamente.
+El espacio para mensajes o actualizaciones generales está visible.
+La marca registrada "paGon" está presente y correctamente ubicada.
+
+
+Interfaz 2: Menú de Navegación
+Prototipo 1: 
+Descripcion: Muestra una lista organizada que resume la información que el visitante puede encontrar dentro de un sitio web, para interactuar de acuerdo a su tipo de usuario o nesesidades.
+Pasos:
+Iniciar sesión con una cuenta autorizada.
+Observar el menú de navegación desplegado.
+Seleccionar una opcion de navegabilidad.
+
+Caso de prueba 2: 
+Identificador: CP-002
+Objetivo: Verifica que el menú desplegado para los usuarios del medio de transporte contenga las opciones correctas.
+Resultados esperados:
+El menú muestra las opciones 
+"Inicio",
+"Realizar pagos", 
+"Historial de transaciones", 
+"Configuración de establecimiento"  
+"Cerrar sesión".
+Requerimiento o Historia de Usuario asociada: Rto 2
+Precondiciones: El usuario ha iniciado sesión como usuario registrado.
+Lista de pasos con los resultados esperados:
+Observar el menú de navegación desplegado.
+El menú muestra las opciones "Inicio", "Recargar saldo", "Historial de transacciones", "Configuración de cuenta" y "Cerrar sesión".
+Iniciar sesión con una cuenta de usuario registrada.
+
+Caso de prueba 3: 
+Identificador: CP-003
+Objetivo: Verificar que el menú desplegado para los establecimientos comerciales contenga las opciones correctas.
+Pasos:
+Iniciar sesión con una cuenta de establecimiento comercial.
+Observar el menú de navegación desplegado.
+Resultados esperados:
+El menú muestra las opciones "Inicio", "Realizar pagos", "Historial de ventas", "Configuración de establecimiento" y "Cerrar sesión".
+Resultados esperados:
+El menú muestra las opciones 
+"Inicio",
+"Revizar pagos",   
+"Historial de transacciones"
+"Configuración de cuenta"
+"Cerrar sesión".
+Requerimiento o Historia de Usuario asociada: Rto 3
+Precondiciones: El usuario ha iniciado sesión como usuario proveedor establecimiento comercial.
+
+
+Interfaz 3: Sistema de Inicio de Sesión
+
+Prototipo: 
+Descripcion: Los usuario deberan crear una cuenta, con un correo y una contraseña validas. Los cuales se les solicitaran para ingresar a su seccion.
+Pasos:
+crear una cuenta, con datos personales 
+ingresar un correo valido
+ingresar un contraseña valida
+
+Caso de Prueba 4:
+Objetivo: Verificar  que el sistema de inicio de sesión permita acceder a la cuenta con credenciales válidas.
+Identificador: CP-004
+Requerimiento o Historia de Usuario asociada: Rto 4
+Precondiciones: El usuario ha ingresado un nombre de usuario y una contraseña válidos.
+
+Lista de pasos con los resultados esperados:
+Hacer clic en el botón de inicio de sesión.
+El sistema verifica las credenciales ingresadas.
+Si las credenciales son válidas, se accede a la cuenta y se redirige a la página principal.
+Si las credenciales son inválidas, se muestra un mensaje de error indicando que las credenciales son incorrectas.
+
+Caso de prueba 5: 
+Objetivo: Verificar que el sistema de inicio de sesión cumpla con los requisitos de seguridad de la contraseña.
+Identificador: CP-005
+Requerimiento o Historia de Usuario asociada: Rto 4
+
+Lista de pasos con los resultados esperados:
+Ingresar una contraseña que no cumpla con los requisitos de seguridad (menos de 8 caracteres o no contiene mayúsculas y minúsculas).
+Hacer clic en el botón de inicio de sesión.
+Respuesta:
+El sistema muestra un mensaje de error indicando que la contraseña no cumple con los requisitos de seguridad.
+
+Interfaz 4: Encabezado
+
+Prototipo: 
+Descripcion: Suministra informacion guiada de la pagina donde se encuentra el usuario
+Pasos:
+1 Abrir la aplicación.
+2 Observar el encabezado en la página inicial.
+
+Caso de Prueba 6:
+Objetivo: Verificar que el encabezado se muestre correctamente en la página inicial.
+Identificador: CP-006
+Requerimiento o Historia de Usuario asociada: Rto 6
+Precondiciones: La página inicial de la aplicación está abierta.
+Lista de pasos con los resultados esperados:
+Observar el encabezado en la página inicial.
+Resultados esperados:
+El encabezado, ya sea un logotipo o una animación en formato flash, se muestra correctamente.
+El encabezado permite a los usuarios identificar fácilmente la marca de la aplicación y genera confianza en la misma.

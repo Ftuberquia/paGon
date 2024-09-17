@@ -1,0 +1,71 @@
+body{
+    display: grid;
+    place-items: center;
+    margin-top: 60px;
+}
+hr{
+    width: 300px;
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container{
+    display: grid;
+    place-items: center;
+    width: 300px;
+    height: 500px; 
+    border-radius: 20px;
+    border: 1px solid gray
+}
+.Nav{
+    margin-top: 7px;
+}
+.title{
+    text-align: center;
+    font-size: small;
+}
+h1{
+    margin-bottom: 0;
+}
+p{
+    margin-top: 0;
+}
+.Usuario{
+    display: flex;
+}
+h3{
+    width: 90%;
+    height: 30px;
+    display: flex;
+    text-align: left;
+    place-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.message1{
+    padding-left: 10px;
+}
+.contraseña{
+    display: flex;
+}
+h4{
+    color: gray;
+    font-size: x-small;
+    margin-top: 11px;
+    margin-bottom: 0;
+    margin-left: 4px;
+}
+.h5msn{
+    display: grid;
+    place-items: center;
+     border-radius: 10px;
+    border: 1px solid gray;
+    
+}
+.xxxxx{
+    color: gray;
+}
+.marca{
+    color: black;
+}
