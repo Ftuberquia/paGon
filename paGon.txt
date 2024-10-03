@@ -2,7 +2,7 @@ paGon
 
 Interfazes
 
-1. Pantalla de Bienvenida
+1. Inicio Pantalla de Bienvenida
 	titulo, Bienvenidos a paGon
         epigrafe, Tu aplicacion de pagos faciles online 
         boton Ingresar
@@ -11,27 +11,38 @@ Interfazes
         paGon marca registrada
 
 
-2.  Menú de Navegación
+2.  Menú (de Navegación)
 - El menú de navegación se desplegará en el lado izquierdo de la pantalla principal, adaptándose al tipo de usuario que esté utilizando la aplicación (usuarios del medio de transporte, establecimientos comerciales, etc.).
 - El contenido del menú variará según el tipo de usuario, otorgando diferentes opciones según sus roles y privilegios.
 - El menú para los usuarios del medio de transporte podría incluir:
-    - Inicio
-    - Recargar saldo
+- Inicio
+    - Realizar pagos
     - Historial de transacciones
     - Configuración de cuenta
+    - Ayuda
     - Cerrar sesión
-    - El menú para los establecimientos comerciales podría incluir:
+- El menú para los establecimientos comerciales podría incluir:
     - Inicio
     - Realizar pagos
     - Historial de ventas
     - Configuración de establecimiento
     - Cerrar sesión
+3. Configuración
+    - Perfil
+    - Seguridad
+    - Preferencias
 
-3. Sistema de Inicio de Sesión
+4. Ayuda 
+    - Preguntas frecuentes
+    - Contacto
+    - Soporte en linea
+
+
+4. Sistema de Inicio de Sesión
 - Los usuarios deberán ingresar un nombre de usuario y una contraseña previamente registrados y dados de alta por algún usuario autorizado.
 - La contraseña deberá tener al menos 8 caracteres y ser sensible a mayúsculas y minúsculas, garantizando la seguridad de la cuenta.
 
-4. Encabezado
+5. Encabezado
 - La página inicial de la aplicación contará con un encabezado representativo, que podría ser un logotipo de la aplicación de pagos móviles o una animación en formato flash. Este encabezado permitirá a los usuarios identificar fácilmente la marca y generar confianza en la aplicación.
 
 

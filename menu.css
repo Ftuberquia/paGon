@@ -1,38 +1,104 @@
-body{
+/* Estilos básicos */
+body {
     display: grid;
     place-items: center;
     margin-top: 60px;
 }
-hr{
+
+hr {
     width: 300px;
 }
-.container{
+
+.container {
     display: grid;
     place-items: center;
     width: 300px;
-    height: 500px; 
+    height: 500px;
     background-color: rgb(26, 230, 179);
     border-radius: 20px;
-    border: 5px solid gray
+    border: 5px solid gray;
 }
-.Nav{
+
+/* Secuencia de aparición para la Nav, title, h4, h5 */
+.Nav, .title h1, .title p, h4, h5 {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease forwards;
+}
+
+/* Delays para que los elementos aparezcan uno por uno */
+.Nav {
+    animation-delay: 0.2s;
+}
+
+.title h1 {
+    animation-delay: 0.4s;
+}
+
+.title p {
+    animation-delay: 0.6s;
+}
+
+.message {
+    animation-delay: 0.8s;
+}
+
+.message2 {
+    animation-delay: 1s;
+}
+
+.message1 {
+    animation-delay: 1.2s;
+}
+
+.message3 {
+    animation-delay: 1.4s;
+}
+
+.message6 {
+    animation-delay: 1.6s;
+}
+
+h5 {
+    animation-delay: 1.8s;
+}
+
+/* Animación fadeInUp */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Estilos de los elementos */
+.Nav {
     margin-top: 7px;
 }
-hr{
+
+hr {
     margin-bottom: 0;
 }
-.title{
+
+.title {
     text-align: center;
     font-size: small;
 }
-h1{
+
+h1 {
     margin-top: 0;
     margin-bottom: 0;
 }
-p{
+
+p {
     margin-top: 0;
 }
-h4{
+
+h4 {
     font-size: large;
     width: 90%;
     height: 50px;
@@ -45,7 +111,9 @@ h4{
     margin-bottom: 0;
     background-color: rgb(65, 212, 163);
 }
-.message{
+
+/* Estilos para las clases message y variantes */
+.message {
     display: flex;
     border: none;
     background-color: rgb(40, 179, 132);
@@ -53,22 +121,41 @@ h4{
     justify-content: center;
     font-size: x-large;
 }
-.message1{
+
+.message1 {
     padding-left: 10px;
 }
-.message2{
+
+.message2 {
     color: rgb(31, 175, 50);
     padding-left: 10px;
 }
-.message3{
+
+.message3 {
     color: rgb(172, 125, 23);
     padding-left: 10px;
 }
-.message6{
+
+.message6 {
     color: red;
     padding-left: 10px;
 }
-h5{
+
+/* Hover para los elementos */
+.message:hover, .message1:hover, .message2:hover, .message3:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(65, 235, 23);
+    transform: scale(1.05);
+}
+
+.message6:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    transform: scale(1.05);
+    font-weight: bolder;
+}
+
+h5 {
     margin-bottom: 0;
     background-color: rgb(13, 155, 32);
     border-radius: 10px;
